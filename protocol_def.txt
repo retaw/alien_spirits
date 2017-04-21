@@ -1,0 +1,53 @@
+
+1, 登录并获取基本信息：
+    cmd: get_user_id
+    args: openid={}
+    ret: {"userid":101, "reverse_refresh_times": 2}
+
+2，获取当前可拾取的物品的信息
+    cmd: get_items_on_map
+    args: userid
+    ret: {"items_on_map": [[1, 23.12313, 123.234234], ...]}
+
+3, 请求刷新
+    cmd: refresh_items_on_map
+    args: userid, coordlat(纬度), coordlng(经度)
+    ret: {"op_ret": 1, "reverse_refresh_times": 1, "items_on_map": {1: [1, 23.12313, 123.234234], ...}}
+         item列表的格式： {编号1: [id1,纬度1,经度1], 编号2: [id2,纬度2,经度2]}
+
+4, 拾取
+    cmd: capture_item_on_map
+    args: userid, item_index, coordlat(纬度), coordlng(经度)
+    ret: {"op_ret": 1, "items_on_map": {1: [1, 23.12313, 123.234234], ...}, "avaliable_power": 5}
+        op_ret: 0请求非法，1成功，2拾取动作成功但是因为概率没得到，3体力不足，4距离过远
+        更新地图item列表，格式： {编号1: [id1,纬度1,经度1]}
+        avaliable_power:今日剩余体力
+
+5, 获取当前拥有的物品
+    cmd: get_items_captured
+    args: userid
+    ret: {"unique_code": 'AXCDBGU1', "items": [[itemid, size], [itemid, size]]}
+
+6, 每日强制刷新
+    cmd: force_refresh_items_on_map_today
+    args: userid, coordlat(纬度), coordlng(经度)
+    ret: {"op_ret": 1, "reverse_refresh_times": 1, "items_on_map": {1: [1, 23.12313, 123.234234], ...}}
+          reverse_refresh_times:今日可刷新次数剩余
+         item列表的格式： {编号1: [id1,纬度1,经度1], 编号2: [id2,纬度2,经度2]}
+
+7, 恢复体力
+    cmd: add_power
+    args: userid, act_type(1:表示看视频加1次; 2:表示分享加2次), video_code(视频代号,2的n次幂，0 <= n < 32)
+    ret: {"op_ret": 1,  "avaliable_power": 5, "extra_power":11}
+          avaliable_power:今日可刷新次数剩余， extra_power: 额外刷新次数
+
+
+----------------------------
+
+删掉了 add_refresh_times
+替换为 add_power
+返回值发生相应变化
+
+修改了 capture_item_on_map的返回值，加入avaliable_power项
+
+

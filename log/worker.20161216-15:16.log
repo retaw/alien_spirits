@@ -1,0 +1,13 @@
+[2016-12-16 15:13:50] DEBUG [main.py,line38,initLogger] logger init
+[2016-12-16 15:13:50] INFO [main.py,line58,startServer] server started
+[2016-12-16 15:14:26] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=1, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-16 15:14:26] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [1], 每日强制刷新成功, auto, itemsOnMap={1: [1001, 31.230508888365033, 121.47296219019685], 2: [2011, 31.229898706031598, 121.47394972987578], 3: [1011, 31.229652581252623, 121.47445573820654], 4: [1016, 31.23049241550896, 121.47463144161718]}
+[2016-12-16 15:15:38] INFO [userManager.py,line262,addPower] [1], addPower 失败, ACT_SHARED, 达到每日分享上限
+[2016-12-16 15:15:42] INFO [userManager.py,line253,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, videoCode=1
+[2016-12-16 15:15:45] INFO [userManager.py,line249,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, 视频编号重复, videoCode=1
+[2016-12-16 15:15:49] INFO [userManager.py,line253,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, videoCode=2
+[2016-12-16 15:15:53] INFO [userManager.py,line253,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, videoCode=4
+[2016-12-16 15:15:57] INFO [userManager.py,line253,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, videoCode=8
+[2016-12-16 15:16:01] INFO [userManager.py,line253,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, videoCode=16
+[2016-12-16 15:16:04] INFO [userManager.py,line262,addPower] [1], addPower 失败, ACT_SHARED, 达到每日分享上限
+[2016-12-16 15:16:07] INFO [userManager.py,line249,addPower] [1], addPower 失败, ACT_WATCHED_VIDEO, 视频编号重复, videoCode=16

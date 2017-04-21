@@ -1,0 +1,55 @@
+基本软件环境：
+	OS：linux （推荐ubuntu 16.4 server LTS x86-64）
+	runtime：python 2.7
+	dbms： mysql（推荐5.5版或更高）
+
+部署步骤(以ubuntu 16.04 server为标准环境，其它发布版具体命令可能略有不同，请自行修改相关命令和脚本)：
+	step 1, 将alien_spirit.tar上传到服务器
+	step 2, 解包： tar xf alien_spirit.tar
+	step 3, 初始化运行与环境:
+		    进入脚本目录, 执行运行环境初始化脚本:
+			cd alien_spirit/script
+			./init_runtime_env.sh
+			脚本init_runtime_env.sh通过pip来安装python依赖包，在非推荐os中运行此脚本，可能出现出现一些编译依赖缺失的错误，请按照具体的提示，使用apt或yum安装相应的依赖包, 一般需要安装gcc, zlib, libmysqlclient-dev等
+
+    step 4, 建立并初始化业务数据库（建议dba或者运维执行）
+            保持当前工作目录为alien_spirit/script
+            1) 编辑init_db_account.sh 和 init_db_data.sh 两个脚本，填写（或修改）如下变量的值：
+                host=mysql提供服务的主机ip
+                root_pwd=mysql的root用户密码
+                username=本业务专用的mysql用户的用户名(用户不用事先存在，脚本会自动新建用户，直接使用root存在安全风险)
+                password=本业务专用的mysql用户的密码
+                dbname=本业务专用的mysql database名称
+
+            2) 运行数据库用户初始化脚本：
+                ./init_db_account.sh
+            3) 运行数据库本业务初始化脚本：
+                ./init_db_data.sh
+
+            以上步骤使用msyql root账户和密码的方式操作数据库，如果部署环境的安全要求禁止这样操作，请自行依据脚本的执行逻辑，使用dba允许的方式来进行数据库初始化
+            以上脚本默认mysql连接端口为3306，如果不是，请联系dba改端口或自行修改脚本解决
+                
+    step 5, 填写mysql服务器信息配置（建议dba或者运维填写）
+            接step 4，切换至alien_spirit/config目录
+            cd ../config
+            编辑config目录下的 db_mysql.cfg 文件，填写step 4中设定的mysql环境信息：
+                host=mysql提供服务的主机ip
+                port=mysql服务端口
+                dbname=本业务专用的mysql database名称
+                username=本业务专用的mysql用户的用户名
+                password=本业务专用的mysql用户的密码
+		
+    step 6, 填写业务配置（建议策划人员填写）
+		    配置文件路径  alien_spirit/config/game.cfg
+            该文件仅仅和业务逻辑相关，与部署环境无关。相关项目均以在文件中注释，请熟悉业务的人员填写即可
+
+    step 7, 启动服务器
+            切换至alien_spirit/sciript目录
+            cd ../scritp
+            ./start.sh
+
+    step 8, 关闭服务器
+            ./stop.sh
+
+
+

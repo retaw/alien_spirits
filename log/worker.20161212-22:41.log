@@ -1,0 +1,3 @@
+[2016-12-12 22:41:26] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:48:51] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=4, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:49:29] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30

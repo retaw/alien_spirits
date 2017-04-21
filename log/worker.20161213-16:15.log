@@ -1,0 +1,3 @@
+[2016-12-13 16:14:48] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-13 16:14:49] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [2], 每日强制刷新成功, auto, itemsOnMap={1: [2010, 31.231156930850748, 121.47425281803092], 2: [2001, 31.22964095124527, 121.47354889009641], 3: [2005, 31.230799696899187, 121.47431715792136], 4: [2009, 31.23068110276564, 121.47362551530738]}
+[2016-12-13 16:15:34] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30

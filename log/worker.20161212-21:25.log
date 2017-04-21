@@ -1,0 +1,91 @@
+[2016-12-12 21:25:31] DEBUG [main.py,line38,initLogger] logger init
+[2016-12-12 21:25:31] INFO [main.py,line58,startServer] server started
+[2016-12-12 21:26:28] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=water_test, userId=1, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:26:48] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=water_test, userId=1, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:27:29] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:27:29] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [2], 每日强制刷新成功, auto, itemsOnMap={1: [2009, 31.230829016827556, 121.47272454661345], 2: [1012, 31.230951865037472, 121.47403514179305], 3: [1017, 31.230513924366438, 121.47423373832659], 4: [1009, 31.2297857889401, 121.47437720241967]}
+[2016-12-12 21:31:16] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:37:16] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:37:41] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:40:36] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:41:11] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:47:38] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:47:59] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:49:08] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:50:32] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:52:41] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=9CF2DEBF44988F302656D4D398B47050, userId=3, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 21:52:42] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [3], 每日强制刷新成功, auto, itemsOnMap={1: [1016, 31.07672906968303, 121.34241081136074], 2: [1017, 31.076206088212345, 121.34247966100965], 3: [2011, 31.077092177849355, 121.34147465603631], 4: [2011, 31.076261451160935, 121.34172075114702]}
+[2016-12-12 21:53:36] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=9CF2DEBF44988F302656D4D398B47050, userId=3, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:04:33] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=4, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:04:34] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [4], 每日强制刷新成功, auto, itemsOnMap={1: [2001, 31.230852593610713, 121.47344820665768], 2: [2001, 31.230529919434172, 121.4735109584516], 3: [1014, 31.230024587236596, 121.47453352952402], 4: [3003, 31.230174545021292, 121.47433454585313]}
+[2016-12-12 22:05:16] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=4, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:06:06] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=F9C012EA4B25687DD6993416729AE21A, userId=5, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:06:06] INFO [userManager.py,line110,systemForceRefreshUserItemsOnMapToday] [5], 每日强制刷新成功, auto, itemsOnMap={1: [1014, 31.280726395374707, 121.52455968575536], 2: [1017, 31.28176469375636, 121.5242408181395], 3: [1005, 31.28159256971313, 121.52405076064552], 4: [1001, 31.280427438703164, 121.52429100586002]}
+[2016-12-12 22:06:14] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=29, itemId=1001, itemIndex=4
+[2016-12-12 22:06:20] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=28, itemId=1014, itemIndex=1
+[2016-12-12 22:06:26] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=27, itemId=1005, itemIndex=3
+[2016-12-12 22:06:26] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:06:31] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=26, itemId=1017, itemIndex=2
+[2016-12-12 22:06:35] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=1, itemsOnMap={1: [3011, 31.281066700978002, 121.52394085353748], 2: [1009, 31.28185567289171, 121.52287505894964], 3: [1004, 31.280467694897535, 121.5246012726926], 4: [1016, 31.281878659894407, 121.5245598663843]}
+[2016-12-12 22:06:38] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=25, itemId=1004, itemIndex=3
+[2016-12-12 22:06:44] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=24, itemId=3011, itemIndex=1
+[2016-12-12 22:06:50] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=23, itemId=1016, itemIndex=4
+[2016-12-12 22:06:56] INFO [userManager.py,line200,captureItem] [5], 拾取失败, badLuck, avaliablePower=22, itemId=1009, itemIndex=2
+[2016-12-12 22:07:00] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=2, itemsOnMap={1: [1005, 31.280538085773014, 121.52392646956366], 2: [1012, 31.281243248277292, 121.52327085884191], 3: [1010, 31.281890728561518, 121.52357747505427], 4: [1006, 31.28052942269221, 121.52414255223344]}
+[2016-12-12 22:07:04] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=21, itemId=1006, itemIndex=4
+[2016-12-12 22:07:09] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=20, itemId=1005, itemIndex=1
+[2016-12-12 22:07:15] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=19, itemId=1010, itemIndex=3
+[2016-12-12 22:07:21] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=18, itemId=1012, itemIndex=2
+[2016-12-12 22:07:25] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=3, itemsOnMap={1: [1013, 31.280936460872557, 121.52348518225996], 2: [1003, 31.28175311006215, 121.52306207552411], 3: [1001, 31.281779778894037, 121.52300153052013], 4: [1010, 31.280443890257384, 121.52447761298926]}
+[2016-12-12 22:07:25] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=4, itemsOnMap={1: [1012, 31.280627026668885, 121.52284083955448], 2: [1018, 31.28127871725149, 121.52384064824652], 3: [1018, 31.280318825612337, 121.52485973746685], 4: [1018, 31.281237132461495, 121.52356143650086]}
+[2016-12-12 22:07:28] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=17, itemId=1018, itemIndex=3
+[2016-12-12 22:07:29] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:08:23] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:08:23] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=16, itemId=1012, itemIndex=1
+[2016-12-12 22:08:29] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=15, itemId=1018, itemIndex=4
+[2016-12-12 22:08:36] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=14, itemId=1018, itemIndex=2
+[2016-12-12 22:08:39] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=5, itemsOnMap={1: [1006, 31.281342506008098, 121.52284598600835], 2: [1009, 31.281016508694893, 121.52432670163653], 3: [1005, 31.280973642402294, 121.52289359869242], 4: [2005, 31.28022562639641, 121.52479483475345]}
+[2016-12-12 22:08:40] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:08:42] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=13, itemId=2005, itemIndex=4
+[2016-12-12 22:08:54] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=12, itemId=1009, itemIndex=2
+[2016-12-12 22:08:59] INFO [userManager.py,line200,captureItem] [5], 拾取失败, badLuck, avaliablePower=11, itemId=1005, itemIndex=3
+[2016-12-12 22:09:04] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=10, itemId=1006, itemIndex=1
+[2016-12-12 22:09:09] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=6, itemsOnMap={1: [1011, 31.281070187627446, 121.52313400891184], 2: [2011, 31.28073331198259, 121.52295753571086], 3: [1018, 31.280240841944714, 121.52361721090516], 4: [1008, 31.280450788631022, 121.52392345930195]}
+[2016-12-12 22:09:11] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=9, itemId=1008, itemIndex=4
+[2016-12-12 22:09:16] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=8, itemId=2011, itemIndex=2
+[2016-12-12 22:09:21] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=7, itemId=1011, itemIndex=1
+[2016-12-12 22:09:27] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=6, itemId=1018, itemIndex=3
+[2016-12-12 22:09:32] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=7, itemsOnMap={1: [2008, 31.281764289140604, 121.52383072863844], 2: [1002, 31.281581652610754, 121.5232605159298], 3: [2003, 31.281106841463544, 121.52449929795318], 4: [2010, 31.281157775712092, 121.5236263391546]}
+[2016-12-12 22:09:34] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=5, itemId=2003, itemIndex=3
+[2016-12-12 22:09:39] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=4, itemId=2010, itemIndex=4
+[2016-12-12 22:09:45] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=3, itemId=1002, itemIndex=2
+[2016-12-12 22:09:50] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=2, itemId=2008, itemIndex=1
+[2016-12-12 22:10:00] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=8, itemsOnMap={1: [1007, 31.281846208920495, 121.52439229040588], 2: [1005, 31.281330362017925, 121.52285294469942], 3: [1007, 31.28083718888445, 121.52335944497108], 4: [1017, 31.28136115566093, 121.52417573898363]}
+[2016-12-12 22:10:03] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=1, itemId=1007, itemIndex=3
+[2016-12-12 22:10:08] INFO [userManager.py,line200,captureItem] [5], 拾取失败, badLuck, avaliablePower=0, itemId=1005, itemIndex=2
+[2016-12-12 22:10:23] INFO [userManager.py,line253,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, videoCode=1
+[2016-12-12 22:10:32] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=0, itemId=1007, itemIndex=1
+[2016-12-12 22:10:36] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=9, itemsOnMap={1: [1007, 31.280993344472392, 121.52449366242692], 2: [1008, 31.280283495557335, 121.52335543910438], 3: [1011, 31.281245243490005, 121.52353313776294], 4: [2001, 31.2802085004084, 121.52328439151717]}
+[2016-12-12 22:10:43] INFO [userManager.py,line249,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, 视频编号重复, videoCode=1
+[2016-12-12 22:10:45] INFO [userManager.py,line249,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, 视频编号重复, videoCode=1
+[2016-12-12 22:10:56] INFO [userManager.py,line253,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, videoCode=2
+[2016-12-12 22:10:58] INFO [userManager.py,line253,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, videoCode=4
+[2016-12-12 22:11:00] INFO [userManager.py,line253,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, videoCode=8
+[2016-12-12 22:11:01] INFO [userManager.py,line253,addPower] [5], addPower 失败, ACT_WATCHED_VIDEO, videoCode=16
+[2016-12-12 22:11:06] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=3, itemId=2001, itemIndex=4
+[2016-12-12 22:11:18] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=10, itemsOnMap={1: [2010, 31.281098302322643, 121.52303372681632], 2: [1006, 31.281138925864564, 121.52442993833253], 3: [2002, 31.281087638536277, 121.52408061310545], 4: [1008, 31.28134255402887, 121.52402577484496]}
+[2016-12-12 22:11:31] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=2, itemId=2002, itemIndex=3
+[2016-12-12 22:11:35] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=11, itemsOnMap={1: [1004, 31.281705557556332, 121.52483114117535], 2: [2004, 31.281114662789932, 121.52426879269447], 3: [1003, 31.280512440695478, 121.52373071398733], 4: [3011, 31.280972337959337, 121.52443830605331]}
+[2016-12-12 22:11:38] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=1, itemId=3011, itemIndex=4
+[2016-12-12 22:11:44] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=0, itemId=1003, itemIndex=3
+[2016-12-12 22:11:50] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=12, itemsOnMap={1: [1004, 31.280241832452926, 121.52438530329826], 2: [1014, 31.281691186808338, 121.52481273582576], 3: [1009, 31.28157648777189, 121.52298261561366], 4: [2010, 31.280439099780388, 121.52473012934618]}
+[2016-12-12 22:12:02] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=13, itemsOnMap={1: [2001, 31.28034663773726, 121.52462484021429], 2: [1010, 31.2810583472716, 121.52364404328763], 3: [1010, 31.280390884456075, 121.52364880468856], 4: [1011, 31.28155351036981, 121.52328251218287]}
+[2016-12-12 22:12:13] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=14, itemsOnMap={1: [1002, 31.281470365979164, 121.52487254474262], 2: [1016, 31.28018659444731, 121.52303259966983], 3: [1018, 31.28179925025552, 121.52321094813549], 4: [2011, 31.280601856173114, 121.52348731943776]}
+[2016-12-12 22:12:32] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=15, itemsOnMap={1: [1004, 31.28075964182315, 121.52346751404606], 2: [1002, 31.280817965629844, 121.52321180659683], 3: [1013, 31.281713758496902, 121.52421528344394], 4: [1001, 31.281759459777295, 121.523506237102]}
+[2016-12-12 22:13:35] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=F9C012EA4B25687DD6993416729AE21A, userId=5, reverseRefreshTimes=485, avaliablePower=2
+[2016-12-12 22:13:41] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=4, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:13:51] INFO [userManager.py,line145,refreshUserItemsOnMap] [5], 手动刷新成功, refreshCounter=16, itemsOnMap={1: [1010, 31.28147765731007, 121.52380856441388], 2: [2004, 31.281589202672734, 121.52388487957806], 3: [2007, 31.280852126668957, 121.52398801274316], 4: [1011, 31.280531760664132, 121.52286321531844]}
+[2016-12-12 22:13:53] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=1, itemId=2007, itemIndex=3
+[2016-12-12 22:14:01] INFO [userManager.py,line209,captureItem] [5], 拾取成功, avaliablePower=0, itemId=2004, itemIndex=2
+[2016-12-12 22:17:43] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=4B5EE7B06B08565CD6C42A19F9B664C1, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-12 22:20:15] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=B78488C04D6E4C018C79496CD5212525, userId=4, reverseRefreshTimes=500, avaliablePower=30

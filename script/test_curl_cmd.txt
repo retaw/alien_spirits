@@ -1,0 +1,7 @@
+curl '127.0.0.1:8001/get_user_id?openid=water_test'
+
+curl '127.0.0.1:8001/add_power?userid=1&act_type=1&video_code=1'
+
+curl '127.0.0.1:8001/refresh_items_on_map?userid=1&coordlat=30&coordlng=30'
+
+curl '127.0.0.1:8001/capture_item_on_map?userid=1&&coordlat=30&coordlng=30&item_index=2'

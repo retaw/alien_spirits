@@ -1,0 +1,6 @@
+[2016-12-18 14:19:46] DEBUG [main.py,line38,initLogger] logger init
+[2016-12-18 14:19:46] INFO [main.py,line58,startServer] server started
+[2016-12-18 14:20:44] INFO [userManager.py,line87,getUserBasicInfo] user login, openId=AC8488C04D6E4C018C79496CD5212511, userId=2, reverseRefreshTimes=500, avaliablePower=30
+[2016-12-18 14:20:59] INFO [userManager.py,line143,refreshUserItemsOnMap] [2], 每日强制刷新成功, manual, itemsOnMap={1: [1011, 29.999329877400157, 30.000015601780458], 2: [1009, 29.99928108814682, 30.001017462835254], 3: [1006, 30.00048393745953, 29.99929455742107], 4: [1015, 30.000656700500254, 29.999133582750968]}
+[2016-12-18 14:21:25] INFO [userManager.py,line209,captureItem] [2], 拾取成功, avaliablePower=29, itemId=1009, itemIndex=2
+[2016-12-18 14:22:17] INFO [userManager.py,line209,captureItem] [2], 拾取成功, avaliablePower=28, itemId=1006, itemIndex=3

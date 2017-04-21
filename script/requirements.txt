@@ -1,0 +1,4 @@
+flask
+flask-cors
+gevent
+MySQL-python
